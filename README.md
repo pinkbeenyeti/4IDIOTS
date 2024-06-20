@@ -16,29 +16,6 @@
 - Python 3.6 이상
 - 필요한 Python 패키지 (`requirements.txt`에 나열됨)
 
-## 설치
-
-1. 레포지토리 클론:
-
-    ```bash
-    git clone https://github.com/your-repo/face-recognition-server.git
-    cd face-recognition-server
-    ```
-
-2. 가상 환경 생성 및 활성화:
-
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # 윈도우에서는 `venv\Scripts\activate`
-    ```
-
-3. 필요한 패키지 설치:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4. 프로젝트 루트 디렉토리에 SSL 인증서(`cert.pem`)와 키(`key.pem`)를 배치합니다.
 
 ## 설정
 
@@ -53,4 +30,4 @@
 서버를 실행하려면 다음 명령을 실행하십시오:
 
 ```bash
-python app.py
+python server.py
